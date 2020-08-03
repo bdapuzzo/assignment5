@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-  <html>
-
+  <html lang="en">
     <head>
-      <title>
+      <title>Contact Me</title>
 
-        <meta>
+      <meta charset="utf-8" />
 
-        <body>
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/style.css" />
+
+      </head>
+
+      <body>
+        <form name="firstform" method="POST" action="">
+          <div class="first-name">
+            <label for="firstname" class="label_input_wrap">First Name:</label>
+            <input type="text" name="firstname" id="firstname" placeholder="ex. John"/>
+          </div>
+
+          <div class="last-name">
+            <label for="lastname" class="label_input_wrap">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="ex. Smith"/>
+          </div>
+
+          <div class="email">
+            <label for="email" class="label_input_wrap">Email:</label>
+            <input type="email" name="email" id="email" placeholder="jsmith@example.com"/>
+
+          <div class="telephone">
+            <label for="telephone" class="label_input_wrap">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+          </div>
+
+          <div class="comments">
+            <label for="comments" class="label_input_wrap">Comments: </label>
+            <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Your Comment Goes Here"></textarea>
+          </div>
 
 
+          <div class="dropdown">
+            <label for="state" class="label_input_wrap">Where do you live?</label>
+            <select name="state" id="state">
+              <option value="FL">Florida</option>
+              <option value="NY">New York</option>
+              <option value="DC">Washington DC</option>
+            </select>
+            </div>
+        </form>
 
 
-        </body>
+      </body>
 
 
   </html>
